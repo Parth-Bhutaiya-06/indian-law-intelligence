@@ -1,0 +1,33 @@
+# Secrets
+.env
+.env.*
+!.env.example
+secrets.toml
+
+# Python environment
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# IDE and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# Local databases and indexes
+*.db
+*.sqlite
+*.sqlite3
+chroma_db/
+.faiss/
+
+# Generated outputs
+outputs/
