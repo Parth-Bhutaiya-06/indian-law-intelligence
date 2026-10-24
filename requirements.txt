@@ -8,3 +8,5 @@ python-dotenv
 tqdm
 numpy
 streamlit
+plotly
+python-dotenv
